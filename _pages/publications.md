@@ -20,3 +20,9 @@ nav_order: 2
 <div class="publications">
 {% bibliography -f papers -q @inproceedings %}
 </div>
+
+<style>
+.publications h2.year {
+  display: none !important;
+}
+</style>
